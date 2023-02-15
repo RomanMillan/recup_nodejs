@@ -25,3 +25,42 @@ las promesas tienen un método .then() el cual podemos
 decidir que ocurre cuando se completa la promesa (exito o error)
 
  */
+
+
+const promesaCumplida = false;
+
+const miPromesa = new Promise((resolve, reject )=> {
+    if(promesaCumplida){
+        resolve('Promesa cumplida');
+    }else{
+        reject('Promesa rechazada')
+    }
+})
+
+/*
+    valor es el valor que le pasamos en resolve 
+    si es rechazada (reject) dará un error ya que no será cogido en valor
+
+
+    miPromesa.then((valor)=>{
+        console.log(valor)
+    })
+
+*/
+
+/*
+    De esta manera .then en la primera opción es la promesa cumplida (resolve)
+    y la segunda es rechazada (reject).
+    Dependiendo de cual sea la respuesta es la que será mostrada. 
+    
+ */
+
+const cumplida = (cumplimiento) => {
+    console.log(cumplimiento)
+}
+
+const rechazada = (rechazo) => {
+    console.log(rechazo)
+}
+
+miPromesa.then(cumplida, rechazada)
