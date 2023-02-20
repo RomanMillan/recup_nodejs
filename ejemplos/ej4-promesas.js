@@ -23,8 +23,12 @@ const miPedido = new Promise((resolve, reject)=>{
 });
 
 /*
-    Creamos los dos metodos para captar un mensaje y devolverlo 
-    en el anterior metodo
+    Creamos los dos metodos para captar un mensaje.
+    Cuando llamemos al metodo este devolvoverá una de las dos opciones (resolve, reject)
+    y esto tiene que ser captado con un .then y guardado en uno de estas constantes.
+    
+    Es "obligatorio" hacer esto para que si nos de una de las dos opciones y no nos salte
+    un error. ya que si la opción fuese rechazada, no lo captaría y nos petaria el programa. 
 */
 const manejarPedido = (mensajeRes)=>{
     console.log(mensajeRes);
