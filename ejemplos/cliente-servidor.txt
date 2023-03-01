@@ -1,0 +1,43 @@
+/**
+ * MODELO CLIENTE-SERVIDOR
+ * 
+ * Modelo que usamos para  acceder a internet y obtener recursos
+ * e información.
+ * 
+ * Cliente: El navegador desde el cual se realizan solicitudes a un servidor
+ * Servidor: Programa que se ejecuta en un servidor físico para 
+ * ofrecer un servicio al cliente. ENvía información.
+ * 
+ * El servidor conoce el formato esperado del mensaje que
+ * envía el cliente.Y el cliente conoce el formato esperado del mensaje que
+ * recibe del servidor.
+ * 
+ * El protocolo HTTP (HyperText Transfer Protocol) define el formato de los mensajes.
+ * Protocolo: Conjunto de reglas que permiten transmitir información
+ * entre dispositivos de una red.
+ */
+
+/*
+    SOLICITUDES HTTP
+
+    Una solicitud HTTP (request) tiene:
+    - Métodos HTTP > (GET (obtener) , POST (enviar), PUT (modificar), DELETE (eliminar))
+    - Camino (path) > Le dice al servidor donde está el recurso que
+        quiere modificar.
+    - Versión de HTTP.
+    - Cabeceras (headers) > Proveen información adicional sobre la solicitud.
+    - Cuerpo (body) > Donde se envia la información. EJ: si queremos 
+        crear un nuevo usuario, la info de ese usuario a crear.
+
+    RESPUESTAS HTTP
+
+    Una respuesta HTTP (response) tiene:
+    - Código de estado > Dice al cliente el estado de la solicitud (existosa, error etc)
+    - Texto de estado > Retorna un texto del estado a parte del código.
+    - Versión de HTTP.
+    - Cabeceras (headers) > puede incluirla.
+    - Cuerpo (body) > si necesita retornar un recurso o contenido que necesite el clietne
+
+    codigos de estado: 
+    
+*/
