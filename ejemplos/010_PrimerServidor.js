@@ -22,6 +22,7 @@ const http = require('http');
 
 */
 
+// cada vez que se realice una solicitud del cliente al servidor esta constante se ejecutará.
 const servidor = http.createServer((req,res)=>{
     res.end('Hola Mundo')
 });
@@ -52,9 +53,15 @@ const servidor = http.createServer((req,res)=>{
     consola que el servidor esta en ejecución o escuchando.
 
 */
-
+/*
 servidor.listen(3000, ()=>{
     console.log('El servidor esta en ejecucion (escuchando)...')
+})
+*/
+
+const puerto = 3000;
+servidor.listen(puerto, ()=>{
+    console.log(`El servidor esta escuchando en: http://localhost:${puerto}`)
 })
 
 /* 
