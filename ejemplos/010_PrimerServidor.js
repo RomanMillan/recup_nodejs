@@ -64,6 +64,7 @@ servidor.listen(puerto, ()=>{
     console.log(`El servidor esta escuchando en: http://localhost:${puerto}`)
 })
 
+
 /* 
     Ahora para ejecutar nuestro servidor tenemos que abrir la consola y donde está el archivo a ejecutar
     escribimos node nombreArchivo.js
