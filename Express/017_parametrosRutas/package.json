@@ -1,0 +1,14 @@
+{
+  "name": "parametros_rutas",
+  "version": "1.0.0",
+  "description": "ejemplo de como usar parametros de rutas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

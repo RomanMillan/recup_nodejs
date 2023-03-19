@@ -1,0 +1,17 @@
+EXPRESS (frameword de node.js)
+
+---Conceptos adicional
+CRUD: Operaciones básias que se pueden realizar con la información almacenada (base de datos).
+    C = Create [POST] 
+    R = Read [GET] 
+    U = Update [PUT]
+    D = Delete [DELETE]
+
+API (Aplication Programming Interface) interfaz de programación de aplicaciones:  Tipo de interfaz de software que permite
+que dos o más programas se comuniquen entre sí. 
+Permite que un software ofrezca servicio a otro software.
+Las API no son usadas directamente por el usuario sino por el programador que usa la API para implementar su programa.
+
+REST: Estilo de arquitectura de software para sistemas hipermedia distribuidos como la www
+
+RESTfull API: Es una API basada en REST

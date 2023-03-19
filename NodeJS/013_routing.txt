@@ -1,0 +1,16 @@
+
+    ROUTING (RUTAS)
+
+    Hay que manejar una serie de criterios que diga como se tiene que manejar cada solicitud.
+
+    Criterio 1: 
+        - El método (GET, PUT, POST, DELETE) de la solicitud HTTP. 
+          De esta forma el servidor sabe que tipo de operación se realizá.
+    Criterio 2:
+        - El Path (camino) de la solicitud HTTP.
+          De esta forma el servidor sabe el recurso específico que se usará. 
+    
+    Una ruta es una combinacion de: Método + Path + Como Manejarlo (que va hacer, donde lo va hacer y como lo va hacer)
+    ej: Si recibes una solicitud Get en cursos haz lo siguente.
+
+

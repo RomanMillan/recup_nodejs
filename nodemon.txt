@@ -1,0 +1,15 @@
+Nodemon 
+Se instala poniendo npm i nodemon (instalación local).
+
+Para usarlo de manera local en cada proyecto, tenemos que poner en el package.json
+
+  "scripts": {
+    "serve": "nodemon app.js"
+  },
+
+app.js es el archivo que va a ejecutar. De manera normal será app.js
+
+y para ejecutarlo nos vamos al command prompt (En la powershell no funciona)
+y escribimos npm run serve
+
+Y ya funcionará correctamente nuestro nodemon.
